@@ -12,6 +12,15 @@ https://www.youtube.com/watch?v=hQcFE0RD0cQ&t=3654s
   Initialized empty repository by "git init" command
 
 # Step 2: Syncing local and remote Repos
-  Add remote repository as origin by "git remote add origin <link_of_remote_repo>" command
-  Pull the piles from remote repo using "git pull origin master" command
+  Added remote repository as origin by "git remote add origin <link_of_remote_repo>" command
+  Pulled the files from remote repo using "git pull origin main" command
+
+# Step 3: Making changes
+  Index is the layer between local project folder and local repo
+  Need to add files to the index before committing them to repo
+  Used "git status" to see files currently in the index
+  Used "git add <file-name>" to add file to index (use -A flag to add all files at once)
+  Used "git commit -m "commit message"" to commit changes to local repo(use -a flag to commit all files at once)
+  Used "git log" command to see the all the previous commits information
+  
   
