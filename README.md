@@ -22,5 +22,13 @@ https://www.youtube.com/watch?v=hQcFE0RD0cQ&t=3654s
   Used "git add <file-name>" to add file to index (use -A flag to add all files at once)
   Used "git commit -m "commit message"" to commit changes to local repo(use -a flag to commit all files at once)
   Used "git log" command to see the all the previous commits information
+
+# Parallel processing through branches
+  A branch is a lightweight, moveable pointer to a specific commit.\n
+  Used "git branch <branch-name>" to make a different branch \n
+  Used "git checkout <branch-name>" to navigate to that branch \n
+  Made a file in that branch, added and committed it \n
+  Moved to main branch, and saw that the local folder now doesn't show those files, since they are in another branch \n
+  Used "git merge <branch-name>" inside main branch to merge the other branch into it and now those files show up again in the local folder
   
   
